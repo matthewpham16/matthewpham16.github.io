@@ -1,2 +1,3 @@
 # matthewpham16.github.io
-Portfolio website for myself
+
+Personal portfolio (React + Vite), deployed to GitHub Pages via Actions.
