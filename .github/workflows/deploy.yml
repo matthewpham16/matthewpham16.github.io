@@ -15,11 +15,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: 22, cache: npm }
+        with: { node-version: 20, cache: npm }
       - run: npm ci && npm run build
       # SPA fallback so deep links work on refresh
-      - run: cp dist/index.html dist/404.html
+      - run: cp build/index.html build/404.html
       - uses: actions/upload-pages-artifact@v3
-        with: { path: dist }
+        with: { path: build }
       - id: d
         uses: actions/deploy-pages@v4
