@@ -44,9 +44,9 @@ const worktimeline = [
 ];
 
 const skills = [
-    { name: "Languages", value: "Python, C, C++, Go, Java, TypeScript, JavaScript, SQL, HTML/CSS" },
+    { name: "Languages", value: "Python, C, Java, TypeScript, JavaScript, SQL, HTML/CSS" },
     { name: "Cloud, DevOps & Platform", value: "Docker, Kubernetes, Argo Workflows, Linux/Unix, CI/CD, Git" },
-    { name: "Data Engineering", value: "Snowflake, Apache Kafka, Azure Data Lake Storage, PostgreSQL, ETL pipelines" },
+    { name: "Data Engineering", value: "Snowflake, Azure Data Lake Storage, PostgreSQL, ETL pipelines" },
     { name: "Web & Backend", value: "React, Flask, REST API design, Microservices" },
     { name: "Data Science & ML", value: "Statistical modeling, regression, regularization, decision trees, Pandas, NumPy, Scikit-learn" },
     { name: "Systems", value: "OS kernel development, multithreading, virtual memory, 5-stage CPU pipelining" },
@@ -60,15 +60,15 @@ const services = [
     },
     {
         title: "Data Pipeline & ETL Architecture",
-        description: "Designing fault-tolerant ingestion and validation pipelines using Python, SQL, Snowflake, ADLS, and Apache Kafka.",
+        description: "Designing fault-tolerant ingestion and validation pipelines using Python, SQL, Snowflake, and ADLS.",
     },
     {
         title: "Backend & Full-Stack Development",
-        description: "Responsive React/TypeScript frontends and scalable REST APIs in Python (Flask) and Go, with automated third-party API integrations.",
+        description: "Responsive React/TypeScript frontends and scalable REST APIs in Python (Flask), with automated third-party API integrations.",
     },
     {
         title: "Systems Programming & Statistical Modeling",
-        description: "Low-level C/C++ systems software, and statistical learning methods applied to messy real-world datasets.",
+        description: "Low-level C systems software, and statistical learning methods applied to messy real-world datasets.",
     },
 ];
 
