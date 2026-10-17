@@ -17,7 +17,7 @@ function Timeline() {
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="Jun 2026 - Aug 2026"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#0053c5', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Platform Engineer Intern, William Blair</h3>
@@ -29,7 +29,7 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Jan 2026 - May 2026"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#0053c5', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Software Engineer, Civic Housing</h3>
@@ -41,7 +41,7 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="May 2024 - Jul 2024"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#0053c5', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Data Analyst Intern, Loan Ranger Capital</h3>
@@ -53,7 +53,7 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2023 - May 2027"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#0053c5', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">B.S. Computer Science, UT Austin</h3>
