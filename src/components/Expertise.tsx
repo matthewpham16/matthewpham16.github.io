@@ -10,10 +10,10 @@ const labelsFirst = [
     "Kubernetes",
     "Argo Workflows",
     "AWS",
-    "Linux",
-    "CI/CD",
-    "Git",
-    "GitLab CI",
+    "Linux/Unix",
+    "GitLab CI/CD",
+    "Git/GitHub",
+    "Postman",
 ];
 
 const labelsSecond = [
@@ -21,22 +21,32 @@ const labelsSecond = [
     "SQL",
     "Snowflake",
     "Azure Data Lake Storage",
-    "PostgreSQL",
+    "Apache Kafka",
     "Pandas",
     "NumPy",
     "Scikit-learn",
+    "Jupyter",
+    "Together AI",
 ];
 
 const labelsThird = [
-    "React",
-    "TypeScript",
-    "Flask",
-    "Node.js",
-    "REST APIs",
     "C",
+    "C++",
     "Java",
-    "Multithreading",
+    "Go",
+    "TypeScript",
+    "JavaScript",
+    "R",
+    "MATLAB",
+    "React",
+    "Node.js",
+    "Flask",
+    "Bootstrap",
+    "REST APIs",
+    "OS Kernel Development",
+    "Concurrency",
     "Virtual Memory",
+    "CPU Pipelining",
 ];
 
 function Expertise() {
@@ -48,7 +58,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>Platform & Cloud Infrastructure</h3>
-                    <p>Containerizing applications and orchestrating multi-step workflows on Kubernetes and Argo, building CI/CD pipelines, and moving legacy workloads onto cloud-native infrastructure.</p>
+                    <p>Containerizing legacy systems and orchestrating fault-tolerant, distributed pipelines with Docker, Kubernetes, Argo Workflows, and GitLab CI/CD.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -60,7 +70,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>Data Pipelines & Machine Learning</h3>
-                    <p>Fault-tolerant ETL and validation pipelines with Python, SQL, Snowflake, and ADLS, plus statistical and machine learning models on messy real-world data.</p>
+                    <p>End-to-end ETL and machine learning pipelines in Python, SQL, Snowflake, and ADLS that clean and model hundreds of thousands of records.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -72,7 +82,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Full-Stack & Systems Engineering</h3>
-                    <p>React frontends and REST APIs in Flask and Node.js, alongside low-level systems work in C: thread scheduling, synchronization, and virtual memory.</p>
+                    <p>Modular React frontends and Node.js/Flask REST APIs deployed on AWS, alongside memory-safe, concurrent C/C++ at the kernel and hardware level: scheduling, caching, virtual memory, and instruction throughput.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (

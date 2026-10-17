@@ -22,6 +22,8 @@
   
 .zoom {
     border-radius: 5px;
+    aspect-ratio: 1 / 1; /* matches machinelearning.png (1264x1264) */
+    object-fit: cover;
     transition: transform .2s;
     margin: 0 auto;
 }

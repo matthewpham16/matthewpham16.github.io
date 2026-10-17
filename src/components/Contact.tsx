@@ -9,7 +9,7 @@ function Contact() {
       <div className="items-container">
         <div className="contact_wrapper">
           <h1>Contact Me</h1>
-          <p>Based in Austin, TX. Email is the best way to reach me.</p>
+          <p>Based in Austin, TX / Sugar Land, TX. Email is the best way to reach me.</p>
           <Button variant="contained" endIcon={<EmailIcon />} href="mailto:mattpham016@gmail.com">
             mattpham016@gmail.com
           </Button>

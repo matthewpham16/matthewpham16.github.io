@@ -1,9 +1,8 @@
 import React from "react";
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
+import civichousing from '../assets/images/civichousing.png';
+import operatingsystem from '../assets/images/operatingsystem.png';
+import systememulator from '../assets/images/systememulator.png';
+import machinelearning from '../assets/images/machinelearning.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -12,29 +11,24 @@ function Project() {
         <h1>Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://github.com/matthewpham16" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/matthewpham16" target="_blank" rel="noreferrer"><h2>Pintos Operating System</h2></a>
-                <p>Upgraded a teaching OS kernel in C: priority scheduling, synchronization primitives, system calls, and virtual memory with demand paging, frame allocation, and LRU eviction. Led a 3-person team.</p>
+                <a href="https://github.com/matthewpham16/CivicHousing" target="_blank" rel="noreferrer"><img src={civichousing} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/matthewpham16/CivicHousing" target="_blank" rel="noreferrer"><h2>CivicHousing</h2></a>
+                <p>Full-stack civic housing platform: Node.js REST APIs specified in Postman, React and Bootstrap visualizations, deployed on AWS with GitLab CI/CD verification and testing.</p>
             </div>
             <div className="project">
-                <a href="https://github.com/matthewpham16" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/matthewpham16" target="_blank" rel="noreferrer"><h2>Civic Housing</h2></a>
-                <p>Node.js REST APIs plus React components that automate document and applicant verification, deployed on AWS through GitLab CI/CD.</p>
+                <a href="https://github.com/matthewpham16/Pintos-OS" target="_blank" rel="noreferrer"><img src={operatingsystem} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/matthewpham16/Pintos-OS" target="_blank" rel="noreferrer"><h2>Pintos Operating System</h2></a>
+                <p>Led a 3-person team turning a bare-bones kernel into a multi-threaded OS: recursive priority donation, system calls with page-fault isolation, demand paging with clock eviction, and an indexed file system with a buffer cache. C, x86 assembly, GDB.</p>
             </div>
             <div className="project">
-                <a href="https://github.com/matthewpham16" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/matthewpham16" target="_blank" rel="noreferrer"><h2>5-Stage Pipelined CPU</h2></a>
-                <p>Designed and simulated a pipelined processor with hazard detection, data forwarding, and stall logic.</p>
+                <a href="https://github.com/matthewpham16/Computer-Architecture" target="_blank" rel="noreferrer"><img src={systememulator} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/matthewpham16/Computer-Architecture" target="_blank" rel="noreferrer"><h2>System Emulator</h2></a>
+                <p>5-Stage Pipelined CPU: a cycle-accurate emulator in C with Fetch, Decode, Execute, Memory, and Writeback stages, data forwarding, stalls and bubbles for hazards, caching, and branch prediction.</p>
             </div>
             <div className="project">
-                <a href="https://github.com/matthewpham16" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/matthewpham16" target="_blank" rel="noreferrer"><h2>Predictive Milk Yield Analysis</h2></a>
-                <p>Python data transformation modules and Scikit-learn models over 250,000+ inputs, with automated validation and testing.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/matthewpham16" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/matthewpham16" target="_blank" rel="noreferrer"><h2>Sports Analytics & ML</h2></a>
-                <p>Classification and regression models across F1, PGA, NFL, and MLB data, tuned for ROC-AUC.</p>
+                <a href="https://github.com/matthewpham16/Milk-Yield-Analysis" target="_blank" rel="noreferrer"><img src={machinelearning} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/matthewpham16/Milk-Yield-Analysis" target="_blank" rel="noreferrer"><h2>Machine Learning Project</h2></a>
+                <p>Predictive Milk Yield Analysis: an ML pipeline over 250,000+ records with modular Python preprocessing, regularized linear and tree-based Scikit-learn models with k-fold cross-validation, and automated tuning and benchmarking.</p>
             </div>
         </div>
     </div>

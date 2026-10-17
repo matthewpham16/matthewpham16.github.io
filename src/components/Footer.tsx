@@ -10,7 +10,7 @@ function Footer() {
         <a href="https://github.com/matthewpham16" target="_blank" rel="noreferrer"><GitHubIcon/></a>
         <a href="https://www.linkedin.com/in/matthew-pham16" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
       </div>
-      <p>Matthew Pham · Austin, TX</p>
+      <p>Matthew Pham · Austin, TX / Sugar Land, TX</p>
     </footer>
   );
 }

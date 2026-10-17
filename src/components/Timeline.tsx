@@ -23,19 +23,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Platform Engineer Intern, William Blair</h3>
             <h4 className="vertical-timeline-element-subtitle">Chicago, IL</h4>
             <p>
-              Argo, Docker, and Kubernetes workflows for large-scale data models; cloud-native data pipeline on Python, Snowflake, and ADLS; schema parity validation.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="Jan 2026 - May 2026"
-            iconStyle={{ background: '#0053c5', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Software Engineer, Civic Housing</h3>
-            <h4 className="vertical-timeline-element-subtitle">Austin, TX</h4>
-            <p>
-              Node.js and RESTful APIs, React and Bootstrap data visualizations, AWS deployment through GitLab CI/CD.
+              Architected automated Argo Workflows, Docker, and Kubernetes pipelines to execute and validate large-scale financial data models; built a cloud-native data pipeline on Python, Snowflake, and ADLS; centralized vendor workflows into one modular codebase.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -47,19 +35,19 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Data Analyst Intern, Loan Ranger Capital</h3>
             <h4 className="vertical-timeline-element-subtitle">Austin, TX</h4>
             <p>
-              Python and SQL validation workflows, REST API integrations, and pipelines that added 2,500+ leads.
+              Python and SQL validation scripts that corrected 300+ database inconsistencies; REST API integrations for an automated outreach system; data collection and cleaning pipelines that added 2,500+ Kansas City leads.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2023 - May 2027"
+            date="Aug 2023 - May 2027"
             iconStyle={{ background: '#0053c5', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">B.S. Computer Science, UT Austin</h3>
             <h4 className="vertical-timeline-element-subtitle">Austin, TX</h4>
             <p>
-              Minors in Statistics & Data Sciences and Business.
+              Minors in Statistics & Data Sciences and Business. Coursework: Operating Systems, Computer Architecture, Data Structures, Algorithms, Software Engineering, AI, Machine Learning, Discrete Math, Linear Algebra.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
