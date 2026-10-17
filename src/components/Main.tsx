@@ -19,13 +19,20 @@ function Main() {
           </div>
           <h1>Matthew Pham</h1>
           <p>Software, Platform & Systems Engineer</p>
-          <p>Engineering systems from the bare-metal kernel up to cloud-native infrastructure: high-throughput data pipelines (Kubernetes, Argo Workflows, Snowflake), low-level systems (C, OS kernels, CPU pipelining), and full-stack web automation (React, Node.js, AWS).</p>
-
           <div className="mobile_social_icons">
             <a href="https://github.com/matthewpham16" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/matthew-pham16" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
         </div>
+      </div>
+      <div className="bio-section" id="about">
+        <h1>About Me</h1>
+        <p>
+          I’m a Computer Science student at UT Austin (minoring in Statistics & Data Sciences and Business) focused on building software from the ground up. My work spans low-level systems, cloud infrastructure, and data-driven modeling.
+        </p>
+        <p>
+          This past summer I was a Platform Engineer Intern at William Blair, building Argo, Docker, and Kubernetes workflows and a Snowflake data pipeline. Outside of work I build projects across the stack, including a multi-threaded operating system, a pipelined CPU emulator, a full-stack civic housing platform, and a machine learning pipeline.
+        </p>
       </div>
     </div>
   );
