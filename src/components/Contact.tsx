@@ -2,6 +2,8 @@ import React from 'react';
 import '../assets/styles/Contact.scss';
 import Button from '@mui/material/Button';
 import EmailIcon from '@mui/icons-material/Email';
+import DescriptionIcon from '@mui/icons-material/Description';
+import { Link } from 'react-router-dom';
 
 function Contact() {
   return (
@@ -14,6 +16,9 @@ function Contact() {
             mattpham016@gmail.com
           </Button>
           <p>Phone: 832-746-6047</p>
+          <Button variant="outlined" endIcon={<DescriptionIcon />} component={Link} to="/resume">
+            View Resume
+          </Button>
         </div>
       </div>
     </div>

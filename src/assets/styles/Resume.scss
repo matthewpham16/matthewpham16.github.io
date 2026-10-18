@@ -3,6 +3,7 @@
     margin: 0 auto;
     padding: 120px 5% 5%;
     text-align: left;
+    color: #fff; // li/em/strong/span aren't covered by the global p, a, h* color rule
 
     h2 {
         margin-top: 2em;
@@ -33,4 +34,8 @@
     .MuiButton-root {
         margin: 1em 0;
     }
+}
+
+.light-mode .resume-container {
+    color: #0d1116;
 }
