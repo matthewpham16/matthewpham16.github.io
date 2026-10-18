@@ -15,13 +15,16 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const drawerWidth = 240;
-const navItems = [['Expertise', 'expertise'], ['History', 'history'], ['Projects', 'projects'], ['Contact', 'contact']];
+const navItems = [['Expertise', 'expertise'], ['History', 'history'], ['Projects', 'projects'], ['Contact', 'contact'], ['Resume', 'resume']];
 
 function Navigation({parentToChild, modeChange}: any) {
 
   const {mode} = parentToChild;
+  const navigate = useNavigate();
+  const { pathname } = useLocation();
 
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
   const [scrolled, setScrolled] = useState<boolean>(false);
@@ -47,7 +50,14 @@ function Navigation({parentToChild, modeChange}: any) {
   }, []);
 
   const scrollToSection = (section: string) => {
-    console.log(section)
+    if (section === 'resume') {
+      navigate('/resume');
+      return;
+    }
+    if (pathname !== '/') {
+      navigate('/', { state: { scrollTo: section } });
+      return;
+    }
     const expertiseElement = document.getElementById(section);
     if (expertiseElement) {
       expertiseElement.scrollIntoView({ behavior: 'smooth' });

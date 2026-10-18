@@ -7,7 +7,9 @@ import {
   Contact,
   Navigation,
   Footer,
+  Resume,
 } from "./components";
+import { Routes, Route, useLocation } from "react-router-dom";
 import FadeIn from './components/FadeIn';
 import './index.scss';
 
@@ -22,20 +24,34 @@ function App() {
         }
     }
 
+    const location = useLocation();
+
+    // Navigation from another route passes the target section id in state.
     useEffect(() => {
-        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-      }, []);
+        const target = (location.state as {scrollTo?: string} | null)?.scrollTo;
+        const el = target ? document.getElementById(target) : null;
+        if (el) {
+            el.scrollIntoView({behavior: 'smooth'});
+        } else {
+            window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }
+    }, [location]);
 
     return (
     <div className={`main-container ${mode === 'dark' ? 'dark-mode' : 'light-mode'}`}>
         <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
-        <FadeIn transitionDuration={700}>
-            <Main/>
-            <Expertise/>
-            <Timeline/>
-            <Project/>
-            <Contact/>
-        </FadeIn>
+        <Routes>
+            <Route path="/" element={
+                <FadeIn transitionDuration={700}>
+                    <Main/>
+                    <Expertise/>
+                    <Timeline/>
+                    <Project/>
+                    <Contact/>
+                </FadeIn>
+            }/>
+            <Route path="/resume" element={<Resume/>}/>
+        </Routes>
         <Footer />
     </div>
     );
