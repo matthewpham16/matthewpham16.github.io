@@ -2,6 +2,8 @@ import React, {useState, useEffect} from "react";
 import {
   Main,
   Timeline,
+  Education,
+  ExperiencePage,
   Expertise,
   Project,
   Contact,
@@ -46,10 +48,12 @@ function App() {
                     <Main/>
                     <Expertise/>
                     <Timeline/>
+                    <Education/>
                     <Project/>
                     <Contact/>
                 </FadeIn>
             }/>
+            <Route path="/experience/:slug" element={<ExperiencePage/>}/>
             <Route path="/resume" element={<Resume/>}/>
         </Routes>
         <Footer />

@@ -1,0 +1,40 @@
+.experience-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 120px 5% 5%;
+    text-align: left;
+    color: #fff; // li isn't covered by the global p, a, h* color rule
+
+    h2 {
+        margin-top: 2em;
+        padding-bottom: 4px;
+        border-bottom: 1px solid currentColor;
+    }
+
+    h3 {
+        margin-bottom: 0.3em;
+    }
+
+    .experience-meta {
+        opacity: 0.8;
+    }
+
+    .experience-skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        list-style: none;
+        padding: 0;
+
+        li {
+            padding: 4px 12px;
+            border: 1px solid currentColor;
+            border-radius: 16px;
+            font-size: 0.9em;
+        }
+    }
+}
+
+.light-mode .experience-container {
+    color: rgb(39, 40, 34);
+}

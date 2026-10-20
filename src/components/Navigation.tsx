@@ -18,7 +18,7 @@ import Toolbar from '@mui/material/Toolbar';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const drawerWidth = 240;
-const navItems = [['Expertise', 'expertise'], ['History', 'history'], ['Projects', 'projects'], ['Contact', 'contact'], ['Resume', 'resume']];
+const navItems = [['Expertise', 'expertise'], ['Experience', 'history'], ['Education', 'education'], ['Projects', 'projects'], ['Contact', 'contact'], ['Resume', 'resume']];
 
 function Navigation({parentToChild, modeChange}: any) {
 
